@@ -79,7 +79,7 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 #chatgptAI
 AI = is_enabled((environ.get("AI","True")), True)
 OPENAI_API = environ.get("OPENAI_API", " ")
-DEEP_API = environ.get("DEEP_API", "3ac9b077-654f-45c6-a1f0-a04a5ef6b69e")
+DEEP_API = environ.get("DEEP_API", "5f0c3850-aa1b-11ef-a0e4-45c4a916b544")
 GOOGLE_API_KEY = environ.get("GOOGLE_API_KEY", "AIzaSyD214hhYJ-xf8rfaWX044_g1VEBQ0ua55Q")
 AI_LOGS = int(environ.get("AI_LOGS", "-1002451523671")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of Bot ]
 
